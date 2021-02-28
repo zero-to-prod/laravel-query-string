@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\Skeleton\Commands;
+namespace ZeroToProd\LaravelQueryString\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelQueryStringCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-query-string';
 
     public $description = 'My command';
 

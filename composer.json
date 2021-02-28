@@ -1,21 +1,21 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "zerotoprod/laravel-query-string",
+    "description": "Build Eloquent queries from a query string.",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "zerotoprod",
+        "laravel-query-string"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/zerotoprod/laravel-query-string",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "D.A.Smith",
+            "email": "dsmith@realclearpolitics.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^8.0",
+        "php": "^7.2",
         "spatie/laravel-package-tools": "^1.1",
         "illuminate/contracts": "^8.0"
     },
@@ -27,13 +27,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src",
-            "Spatie\\Skeleton\\Database\\Factories\\": "database/factories"
+            "ZeroToProd\\LaravelQueryString\\": "src",
+            "ZeroToProd\\LaravelQueryString\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "ZeroToProd\\LaravelQueryString\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,10 +47,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "ZeroToProd\\LaravelQueryString\\LaravelQueryStringServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "LaravelQueryString": "ZeroToProd\\LaravelQueryString\\LaravelQueryStringFacade"
             }
         }
     },
